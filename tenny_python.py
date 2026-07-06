@@ -28,3 +28,17 @@ print(c.replace("Ridwan", "Sikiru Ridwan Adebayo"))
 print(c.split(","))
 
 print("Learning Git!")
+
+# f-String
+age = 26
+dob0 = 1997
+txt = f"I am {age} and My name is Adebayo. I was born in {dob0}."
+print(txt)
+
+
+#  Walrus operator 
+# Python 3.8 introduced the := operator, known as the "walrus operator". It assigns values to variables as part of a larger expression:
+# e.g 
+number = [1, 2, 3, 4, 5]
+if (n := len(number)) > 3:
+    print(f"List is too long ({n} elements, expected <= 3)")
