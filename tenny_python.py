@@ -42,3 +42,8 @@ print(txt)
 number = [1, 2, 3, 4, 5]
 if (n := len(number)) > 3:
     print(f"List is too long ({n} elements, expected <= 3)")
+
+# Ternary operator
+age = 17
+status = "Adult" if age >= 18 else "Minor"
+print(status)
