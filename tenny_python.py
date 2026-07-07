@@ -47,3 +47,12 @@ if (n := len(number)) > 3:
 age = 17
 status = "Adult" if age >= 18 else "Minor"
 print(status)
+# Membership operator
+fruits = ["apple", "banana", "cherry"]
+if "orange" in fruits:
+    print("Orange is in the list")
+else: 
+    print("Orange is not in the list")
+if "orange" not in fruits:
+    print("Orange is not in the list")
+    print("pineapple" not in fruits)
